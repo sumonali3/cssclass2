@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.selector{
+  background: red;
+}
+
+.div1{
+  background-color: yellow;
+}
+
+
+.div-2{
+  background-color: blue;
+}
+
+/*commetn*/
+/* this is our commetn */
+
+
+#selector-2{
+margin-top: 50px;
+  width: 400px;
+  height: 300px;
+  background-image: url(img/image-1.webp);
+  /* background-size: contain;
+  background-size: auto;
+  background-size: cover; */
+  /* background-size: contain;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed; */
+  background: #000 url(img/image-1.webp) no-repeat center scroll;
+  background-size: cover;
+}
+
+.margin{
+   width: 200px;
+   height: 200px;
+   background: red;
+   margin-bottom: 50px;
+   padding: 10px 10px 20px 10px;
+}
+
+/* .bottom_mar{
+ border-width: ;
+} */
+
+.bottom_mar{
+  width: 500px;
+  max-width: 100%;
+  margin-bottom: 100px;
+  border: 5px solid #000 ;
+  outline: 3px dashed red;
+}
+
+
+.bottom_mar p{
+  color: red;
+}
+
+
+
